@@ -19,6 +19,8 @@
 		AC98E50F197BD86200C0B52D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC98E4F7197BD86200C0B52D /* UIKit.framework */; };
 		AC98E517197BD86200C0B52D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC98E515197BD86200C0B52D /* InfoPlist.strings */; };
 		AC98E519197BD86200C0B52D /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC98E518197BD86200C0B52D /* QuizTests.m */; };
+		AC98E525197BDEBB00C0B52D /* RWTQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC98E523197BDEBB00C0B52D /* RWTQuizViewController.m */; };
+		AC98E526197BDEBB00C0B52D /* RWTQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC98E524197BDEBB00C0B52D /* RWTQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		AC98E514197BD86200C0B52D /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		AC98E516197BD86200C0B52D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC98E518197BD86200C0B52D /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		AC98E522197BDEBB00C0B52D /* RWTQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTQuizViewController.h; sourceTree = "<group>"; };
+		AC98E523197BDEBB00C0B52D /* RWTQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTQuizViewController.m; sourceTree = "<group>"; };
+		AC98E524197BDEBB00C0B52D /* RWTQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWTQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				AC98E502197BD86200C0B52D /* RWTAppDelegate.h */,
 				AC98E503197BD86200C0B52D /* RWTAppDelegate.m */,
+				AC98E522197BDEBB00C0B52D /* RWTQuizViewController.h */,
+				AC98E523197BDEBB00C0B52D /* RWTQuizViewController.m */,
+				AC98E524197BDEBB00C0B52D /* RWTQuizViewController.xib */,
 				AC98E505197BD86200C0B52D /* Images.xcassets */,
 				AC98E4FA197BD86200C0B52D /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				AC98E4FE197BD86200C0B52D /* InfoPlist.strings in Resources */,
 				AC98E506197BD86200C0B52D /* Images.xcassets in Resources */,
+				AC98E526197BDEBB00C0B52D /* RWTQuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC98E525197BDEBB00C0B52D /* RWTQuizViewController.m in Sources */,
 				AC98E504197BD86200C0B52D /* RWTAppDelegate.m in Sources */,
 				AC98E500197BD86200C0B52D /* main.m in Sources */,
 			);
