@@ -12,6 +12,7 @@
 		F3961659198C5BA50020F1A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3961657198C5BA50020F1A0 /* Main.storyboard */; };
 		F396165B198C5BA50020F1A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F396165A198C5BA50020F1A0 /* Images.xcassets */; };
 		F3961667198C5BA50020F1A0 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3961666198C5BA50020F1A0 /* TipCalculatorTests.swift */; };
+		F3961671198C5C550020F1A0 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3961670198C5C550020F1A0 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F3961660198C5BA50020F1A0 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3961665198C5BA50020F1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3961666198C5BA50020F1A0 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		F3961670198C5C550020F1A0 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				F3961655198C5BA50020F1A0 /* ViewController.swift */,
 				F3961657198C5BA50020F1A0 /* Main.storyboard */,
 				F396165A198C5BA50020F1A0 /* Images.xcassets */,
+				F3961670198C5C550020F1A0 /* TipCalculatorModel.swift */,
 				F3961651198C5BA50020F1A0 /* Supporting Files */,
 			);
 			path = TipCalculator;
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3961671198C5C550020F1A0 /* TipCalculatorModel.swift in Sources */,
 				F3961656198C5BA50020F1A0 /* ViewController.swift in Sources */,
 				F3961654198C5BA50020F1A0 /* AppDelegate.swift in Sources */,
 			);
