@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func viewTapped(sender : AnyObject) {
+        
     }
 
     let tipCalc = TipCalculatorModel(total: 33.25, taxPct: 0.06)
